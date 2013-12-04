@@ -1,24 +1,26 @@
+# 关联本地仓库到 GitHub 远程仓库
+
 当你在 [GitHub](github.com) 创建一个代码仓库后，需要將其与你的本地仓库关联起来。
 
 在本地创建一个新仓库并关联：
 
- > cd /path/to/repo
- > touch README.md
- > git init
- > git add README.md
- > git commit -m "First commit"
- > git remote add origin git@github.com:zhaqiang/learngit.git
- > git push -u origin master
+    cd /path/to/repo
+    touch README.md
+    git init
+    git add README.md
+    git commit -m "First commit"
+    git remote add origin git@github.com:zhaqiang/learngit.git
+    git push -u origin master
 
  关联一个已存在的仓库:
 
- > cd /path/to/repo
- > git remote add origin git@github.com:zhaqiang/learngit.git
- > git push -u origin master
+    cd /path/to/repo
+    git remote add origin git@github.com:zhaqiang/learngit.git
+    git push -u origin master
 
- **NOTE**: 记得把 `zhaqiang` 换成你自己的 GitHub 账户。
+**NOTE** 记得把 `zhaqiang` 换成你自己的 GitHub 账户。
 
-说明：
+## 说明：
 
 ### git remote add 命令 - 添加远程仓库
 
