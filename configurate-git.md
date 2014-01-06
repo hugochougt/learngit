@@ -1,5 +1,5 @@
 配置 Git
-===================
+========
 
 保存 Git 的环境变量的文件为以下三个：
 
@@ -29,3 +29,13 @@
 ## 列出当前配置
 
     git config --list
+
+## 配置全局 gitignore
+
+    git config --global core.excludesfile /path/to/.gitignore_global
+
+推荐的全局 gitignore 文件在本项目根目录下的 gitignore_recommended 文件中。
+
+## Git 输出着色
+
+    git config --global color.ui true
