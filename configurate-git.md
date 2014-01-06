@@ -5,7 +5,7 @@
 
  *	/etc/gitconfig - 对所有用户都适用的 Git 配置。执行`git config --system`命令时读写的就是这个文件。
  *	~/.gitconfig - 对当前登录用户适用的 Git 配置。执行`git config --global`命令时读写的就是这个文件。
- *	<git-repo>/.git/config - 仅对当前项目有效的 Git 配置。
+ *	git-repo/.git/config - 仅对当前项目有效的 Git 配置。
 
 **NOTE**: 下层的配置会覆盖上层的同名变量。
 
