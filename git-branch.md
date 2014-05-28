@@ -68,3 +68,15 @@ rebase 后还需要到另外的分支上进行一次快进合并。合并操作�
 Git 的本地分支不会被自动同步到远程仓库，所以需要执行上述命令来明确推送本地分支到远程仓库上。如果需要在远程仓库上使用不同于本地分支的分支名，可执行下面的命令：
 
     $ git push <remote-repo> <local-branch>:<remote-branch>
+
+## 跟踪分支
+
+用 `git fetch origin` 命令抓来新的远程分支之后，你仍然无法在本地编辑该远程分支，需要在其基础上分化一个新的分支来进行修改。
+
+从远程分支检出的本地分支，就叫做跟踪分支（tracking branch）。使用以下命令来 check out 跟踪分支：
+
+    $ git checkout -b [branch] [remotename]/[branch]
+
+如果不需要新的本地分支名，可以使用 `--track` 选项简化跟踪分支的创建：
+
+    $ git checkout --track [remotename]/[branch]
