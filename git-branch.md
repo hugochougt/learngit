@@ -30,6 +30,7 @@ Git 分支
 
     $ git branch
     $ git branch -v             # 列出所有分支及其最后一次 commit 信息
+    $ git branch -a             # list both remote-tracking and local branches
     $ git branch --merged       # 列出已经与当前分支合并的分支
     $ git branch --no-merged    # 列出还没有与当前分支合并的分支
 
