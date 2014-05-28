@@ -10,7 +10,19 @@ Commit message format:
  *  following this is an optional longer description, this should be written in regular paragraphs with full sentence structure
  *  finally if this patch fixes an open bug, there should be a link to the bug report, in a paragraph by itself
 
-Don't describe the code, describe the intent and the approach.
+### DO
+
+ *  Write the summary line and description of what you have done in the imperative mode.
+ *  Describe, at a high level, what was done to affect change.
+ *  Describe what side effects does this change have.
+
+### DON'T
+
+ *  Don't end the summary line with a period.
+ *  Don't describe the code, describe the intent and the approach.
+ *  Never use the `-m <msg>` / `--message=<msg>` flag to `git commit`.
+ 
+**By taking great care in commit messages, as you do in your code, you will help to increase overall quality.**
 
 ## References
 
