@@ -36,6 +36,10 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
+# Ruby & Rails #
+################
+.rvmrc
+
 # Backup files #
 ################
 *~
