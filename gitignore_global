@@ -56,9 +56,10 @@ node_modules
 **.orig
 .dat*
 .repl_history
-.ruby-version
+/.ruby-version
 .ruby-gemset
 .rspec
+/.rbenv-gemsets
 bower.json
 config/initializers/secret_token.rb
 config/secrets.yml

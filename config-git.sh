@@ -13,3 +13,5 @@ git config --global color.ui true
 git config --global push.default simple
 
 ln -s ${BaseDir}/gitignore_global ~/.gitignore_global
+git config --global core.excludesfile "~/.gitignore_global"
+
