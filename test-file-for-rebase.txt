@@ -3,3 +3,4 @@ some content.
 
 some more content.
 
+Text added in `git-rebase-conflict`
